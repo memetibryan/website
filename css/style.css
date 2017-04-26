@@ -59,6 +59,16 @@ header #branding h1{
   margin: 0;
 }
 
+header #branding h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: blue;
+}
+
+header p:hover{
+  color: blue;
+}
+
 header nav{
   float: right;
   margin-top: 5px;
@@ -67,11 +77,13 @@ header nav{
 header .highlight, header .current a{
   color: blue;
   font-weight: bold;
+  font-family: cursive;
 }
 
 header a:hover{
   color: grey;
   font-weight: bold;
+  font-family: cursive;
 }
 
 /*showcase*/
@@ -82,8 +94,8 @@ header a:hover{
   color: white;
 }
 
-#showcase h1{
-  margin-top: 100px;
+#showcase h3{
+  margin-top: 80px;
   font-size: 55px;
   margin-bottom: 30px;
 }
@@ -94,17 +106,19 @@ header a:hover{
 
 /*newsletter*/
 #newsletter{
-  padding: 15px;
+  padding: 5px;
   background-color: orange;
 }
 
-#newsletter h1{
-  float: left;
+#newsletter h4{
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
 #newsletter form{
-  float: right;
-  margin-top: 20px;
+  float: left;
+  padding-top: 10px;
 }
 
 #newsletter input[type="email"]{
@@ -122,16 +136,23 @@ header a:hover{
 #boxes .box {
   padding-top: 10px;
   width: 30%;
+  height: 250px;
   float: left;
   text-align: center;
   padding: 10px;
-  color: white;
+  color: blue;
+  font-family: sans-serif;
+}
+
+#boxes h5{
+  font-size: 20px;
+  font-family: cursive;
 }
 
 /*images*/
 img {
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
 }
 
 /*footer*/
@@ -140,4 +161,9 @@ footer {
   text-align: justify;
   font-weight: bold;
   padding: 2px;
+}
+
+/*paragraph*/
+p {
+  color: red;
 }
