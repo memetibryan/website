@@ -67,6 +67,7 @@ header #branding h2{
 
 header p:hover{
   color: blue;
+  cursor: pointer;
 }
 
 header nav{
